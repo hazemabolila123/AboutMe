@@ -1,2 +1,2 @@
 ### AboutMe
-It is the third app to apply w=waht I learned in (HTML, CSS) 
+It is the third app to apply what I learned in (HTML, CSS) 
