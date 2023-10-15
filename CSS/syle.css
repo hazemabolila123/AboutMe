@@ -1712,6 +1712,136 @@ a {
 
 /* End Of Discount Styling  */
 
+/* Start Of Footer Styling  */
+.footer {
+    background-color: #191919;
+    color: white;
+    padding-top: 70px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+
+.footer .container .box:first-child>a {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer .container .box .social {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.footer .container .box .social li a {
+    background-color: #313131;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition-time);
+}
+
+.footer .container .box .social li:nth-child(1):hover .facebook {
+    background-color: blue;
+}
+
+.footer .container .box .social li:nth-child(2):hover .twitter {
+    background-color: var(--main-color);
+}
+
+.footer .container .box .social li:last-child:hover .youtube {
+    background-color: red;
+}
+
+.footer .container .box .social li a i {
+    font-size: 22px;
+    color: #b9b9b9;
+}
+
+.footer .container .box p {
+    line-height: 1.8;
+}
+
+.footer .container .box:nth-child(2) .links li:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+
+.footer .container .box:nth-child(2) .links li {
+    padding: 15px;
+    transition: var(--transition-time);
+}
+
+.footer .container .box:nth-child(2) .links li:hover {
+    padding-left: 10px;
+}
+
+
+.footer .container .box:nth-child(2) .links li a {
+    color: #b9b9b9;
+    transition: var(--transition-time);
+}
+
+.footer .container .box:nth-child(2) .links li:hover a {
+    color: white;
+}
+
+.footer .container .box:nth-child(2) .links li a::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f101";
+    font-weight: 900;
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.footer .container .box:nth-child(3) .line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer .container .box:nth-child(3) .line i {
+    font-size: 22px;
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.footer .container .box:nth-child(3) .line .info {
+    line-height: 1.8;
+    color: #d4d4d4;
+}
+
+.footer .container .box:nth-child(3) .line .info span {
+    display: block;
+}
+
+.footer .container .box.footer-Image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer .container .box.footer-Image>img {
+    max-width: 78px;
+    height: 78px;
+    border: 3px solid white;
+    margin-right: 3px;
+}
+
+.footer>p {
+    text-align: center;
+    background-color: rebeccapurple;
+    padding: 20px 0;
+    margin-bottom: 0;
+    margin-left: -15px;
+}
+
+/* End Of Footer Styling  */
+
 
 /* Start Animation */
 @keyframes up-and-down {
